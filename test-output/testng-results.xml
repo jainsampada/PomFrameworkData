@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5282" started-at="2022-02-07T18:24:58Z" finished-at="2022-02-07T18:25:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5282" started-at="2022-02-07T18:24:58Z" finished-at="2022-02-07T18:25:03Z">
+      <class name="com.OrangeHRM.Tests.LoginTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.OrangeHRM.Tests.LoginTest@22635ba0]" name="Launch" is-config="true" duration-ms="14182" started-at="2022-02-07T18:24:43Z" finished-at="2022-02-07T18:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="CheckTitle()[pri:0, instance:com.OrangeHRM.Tests.LoginTest@22635ba0]" name="CheckTitle" duration-ms="78" started-at="2022-02-07T18:24:58Z" finished-at="2022-02-07T18:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTitle -->
+        <test-method status="PASS" signature="ForgetPass()[pri:0, instance:com.OrangeHRM.Tests.LoginTest@22635ba0]" name="ForgetPass" duration-ms="815" started-at="2022-02-07T18:24:58Z" finished-at="2022-02-07T18:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetPass -->
+        <test-method status="PASS" signature="logindetails()[pri:0, instance:com.OrangeHRM.Tests.LoginTest@22635ba0]" name="logindetails" duration-ms="3368" started-at="2022-02-07T18:24:59Z" finished-at="2022-02-07T18:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetails -->
+      </class> <!-- com.OrangeHRM.Tests.LoginTest -->
+      <class name="com.OrangeHRM.Tests.HomeTest">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.OrangeHRM.Tests.HomeTest@13c10b87]" name="logout" duration-ms="962" started-at="2022-02-07T18:25:02Z" finished-at="2022-02-07T18:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.OrangeHRM.Tests.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
